@@ -1,0 +1,12 @@
+.d-flex {
+    display: flex;
+
+}
+
+.flex-row {
+    flex-direction: column;
+}
+
+.d-grid {
+    display:grid;
+}
