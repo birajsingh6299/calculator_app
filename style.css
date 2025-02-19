@@ -32,6 +32,10 @@
 }
 
 #screen-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: end;
     border: none;
     height: 150px;
 }
@@ -41,6 +45,7 @@
     grid-template-columns: repeat(4, 70px);
     grid-gap: 2px;
     height: 400px;
+    padding-bottom: 0px;
 }
 
 .button {
