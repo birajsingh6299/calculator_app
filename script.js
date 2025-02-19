@@ -62,10 +62,11 @@ document.getElementById("divide").addEventListener("click", function () {
 
 document.getElementById("equals").addEventListener("click", function () {
         const displayDiv = document.getElementById("screen-div");
-        displayDiv.textContent = displayDiv.textContent.replace("×", "*");
-        displayDiv.textContent = displayDiv.textContent.replace("÷", "/");
+        displayDiv.textContent = displayDiv.textContent.replaceAll("×", "*");
+        displayDiv.textContent = displayDiv.textContent.replaceAll("÷", "/");
         
         const result = eval(displayDiv.textContent);
+        console.log(result);
         displayDiv.textContent = ""
         const numDiv = document.createElement('div');
 
