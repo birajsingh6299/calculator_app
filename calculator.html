@@ -8,34 +8,59 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="d-flex flex-row" style="height:100vh; align-items: center; justify-content:center; border: 1px solid">
-        <div>
-            <input type="text" style="width:400px; height: 100px; border-radius: 20px; background-color: grey;"/>
+    <div class="container">
+        <div id="screen-div" class="child">
+            
         </div>
-        <br><br>
-        <div class="d-grid" style="grid-template-columns: repeat(4, 100px);">
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;"><span style="font-size: xx-large; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">1</span></button>
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">2</button>
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">3</button>
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">+</button>
-        </div>
-        <div class="d-grid" style="grid-template-columns: repeat(4, 100px);">
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">4</button>
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">5</button>
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">6</button>
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">-</button>
-        </div>
-        <div class="d-grid" style="grid-template-columns: repeat(4, 100px);">
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">7</button>
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">8</button>
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">9</button>
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">*</button>
-        </div>
-        <div class="d-grid" style="grid-template-columns: repeat(4, 100px);">
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">.</button>
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">0</button>
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">=</button>
-            <button type="button" style="width:100px; height:100px; border-radius: 100px;">/</button>
+        <div id="button-div" class="child">
+            <div>
+                <button id="one" class="button" type="button">1</button>
+            </div>
+            <div>
+                <button id="two"class="button" type="button">2</button>
+            </div>
+            <div>
+                <button id="three" class="button" type="button">3</button>
+            </div>
+            <div>
+                <button id="plus" class="button operations-btn" type="button">+</button>
+            </div>
+            <div>
+                <button id="four" class="button" type="button">4</button>
+            </div>
+            <div>
+                <button id="five" class="button" type="button">5</button>
+            </div>
+            <div>
+                <button id="six" class="button" type="button">6</button>
+            </div>
+            <div>
+                <button id="minus" class="button operations-btn" type="button">-</button>
+            </div>
+            <div>
+                <button id="seven" class="button" type="button">7</button>
+            </div>
+            <div>
+                <button id="eight" class="button" type="button">8</button>
+            </div>
+            <div>
+                <button id="nine" class="button" type="button">9</button>
+            </div>
+            <div>
+                <button id="multiply"class="button operations-btn" type="button">&#xd7</button>
+            </div>
+            <div>
+                <button id="twoZeroes" class="button" type="button">00</button>
+            </div>
+            <div>
+                <button id="oneZero" class="button" type="button">0</button>
+            </div>
+            <div>
+                <button id="equals" class="button operations-btn" type="button">=</button>
+            </div>
+            <div>
+                <button id="divide" class="button operations-btn" type="button">&divide</button>
+            </div>
         </div>
     </div>
 </body>
